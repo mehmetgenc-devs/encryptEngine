@@ -35,7 +35,7 @@ $encryptedData = $endec->encrypt('Hello World!');
 echo "Encrypted Data: " . $encryptedData; // Encrypted Data: 1rqs/dEAiBdYNEXv/kVwaA==:A7PyjTp8zDcqMSR3mUBkqA==
 
 $decryptedData = $endec->decrypt($encryptedData);
-echo "Decrypted Data: " . $decryptedData; // Decrypted Data: Hellow World
+echo "Decrypted Data: " . $decryptedData; // Decrypted Data: Hello World!
 ```
 
 ## License
