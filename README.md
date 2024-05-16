@@ -19,7 +19,7 @@ EncryptEngine, güvenli veri iletimi ve saklama işlemleri için kullanılan bir
 
 ## Installation - Kurulum
 
-EN: you can call the file.
+EN: you can call the file.\n
 TR: dosyayı çağırabilirsiniz.
 
 ```bash
@@ -37,5 +37,7 @@ echo "Decrypted Data: " . $decryptedData . PHP_EOL;
 ```
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/imehmetgenc/encryptEngine/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/imehmetgenc/encryptEngine/blob/main/LICENSE) file for details.\n
+Bu proje MIT Lisansı altında lisanslanmıştır - ayrıntılar için [LICENSE](https://github.com/imehmetgenc/encryptEngine/blob/main/LICENSE) dosyasına bakın.
+
 
