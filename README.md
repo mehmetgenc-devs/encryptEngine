@@ -30,11 +30,11 @@ include /index.php
 ## Usage - Kullanım
 
 ```php
-$encryptedData = $endec->encrypt('Sensitive data to encrypt');
-echo "Encrypted Data: " . $encryptedData . PHP_EOL;
+$encryptedData = $endec->encrypt('Hello World!');
+echo "Encrypted Data: " . $encryptedData;
 
 $decryptedData = $endec->decrypt($encryptedData);
-echo "Decrypted Data: " . $decryptedData . PHP_EOL;
+echo "Decrypted Data: " . $decryptedData;
 ```
 
 ## License
