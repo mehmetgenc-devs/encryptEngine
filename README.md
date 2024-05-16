@@ -2,6 +2,7 @@
 
 ## EN
 EncryptEngine is an encryption engine used for secure data transmission and storage operations. It encrypts data using AES-256-CBC or other security protocols, ensuring the security of sensitive information. It is an effective solution for protecting sensitive data such as user identities, passwords, and session keys.
+
 ## TR
 EncryptEngine, güvenli veri iletimi ve saklama işlemleri için kullanılan bir şifreleme motorudur. Verileri AES-256-CBC veya diğer güvenlik protokollerine dayalı olarak şifreleyerek, hassas bilgilerin güvenliğini sağlar. Kullanıcı kimlikleri, şifreler, oturum anahtarları gibi hassas verilerin korunmasında etkili bir çözümdür.
 
