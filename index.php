@@ -1,6 +1,6 @@
 <?php
-if (!class_exists('ENCRYPT')) {
-    class ENCRYPT {
+if (!class_exists('CLASS')) {
+    class CLASS {
         public function __construct($key = "your_key") { // unimportant - önemsiz "MEGA"
             $this->key = $key;
         }
@@ -35,6 +35,6 @@ if (!class_exists('ENCRYPT')) {
         }
     }
 
-    $endec = new ENCRYPT();
+    $endec = new CLASS();
 }
 ?>
