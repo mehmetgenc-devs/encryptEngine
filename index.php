@@ -1,7 +1,7 @@
 <?php
 if (!class_exists('ENCRYPT')) {
     class ENCRYPT {
-        public function __construct($key = "your_key") {
+        public function __construct($key = "your_key") { // unimportant - önemsiz "MEGA"
             $this->key = $key;
         }
 
