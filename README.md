@@ -38,7 +38,7 @@ $decryptedData = $endec->decrypt($encryptedData);
 echo "Decrypted Data: " . $decryptedData; // Decrypted Data: Hello World!
 ```
 
-## License
+## License - Lisans
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/imehmetgenc/encryptEngine/blob/main/LICENSE) file for details.
 
 Bu proje MIT Lisansı altında lisanslanmıştır - ayrıntılar için [LICENSE](https://github.com/imehmetgenc/encryptEngine/blob/main/LICENSE) dosyasına bakın.
