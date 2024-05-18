@@ -14,7 +14,7 @@ if (!class_exists('CLASS')) {
         }
 
         public function encryptText($encryptText, $key) {
-            $cipher = "AES-256-CBC"; // algoritma
+            $cipher = "AES-256-CBC"; // algoritma "AES-128-CTR"
             $options = OPENSSL_RAW_DATA;
             $iv_length = openssl_cipher_iv_length($cipher);
             $iv = openssl_random_pseudo_bytes($iv_length);
@@ -26,7 +26,7 @@ if (!class_exists('CLASS')) {
 
         public function decryptText($encryptedText, $key) {
             list($iv_base64, $encrypted_base64) = explode(':', $encryptedText, 2);
-            $cipher = "AES-256-CBC"; // algoritma
+            $cipher = "AES-256-CBC"; // algoritma "AES-128-CTR"
             $options = OPENSSL_RAW_DATA;
             $iv = base64_decode($iv_base64);
             $encrypted = base64_decode($encrypted_base64);
