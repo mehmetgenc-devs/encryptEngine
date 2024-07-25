@@ -26,6 +26,7 @@ TR: dosyayı çağırabilirsiniz.
 
 ```bash
 include /index.php
+include /index.js
 ```
 
 ## Usage - Kullanım
@@ -38,9 +39,17 @@ $decryptedData = $endec->decrypt($encryptedData);
 echo "Decrypted Data: " . $decryptedData; // Decrypted Data: Hello World!
 ```
 
+```js
+const endec = new CryptoClass();
+const encrypted = endec.encrypt('Hello World');
+console.log('Encrypted:', encrypted);
+const decrypted = endec.decrypt(encrypted);
+console.log('Decrypted:', decrypted);
+```
+
 ## License - Lisans
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/imehmetgenc/encryptEngine/blob/main/LICENSE) file for details.
 
-Bu proje MIT Lisansı altında lisanslanmıştır - ayrıntılar için [LICENSE](https://github.com/imehmetgenc/encryptEngine/blob/main/LICENSE) dosyasına bakın.
+Bu proje MIT Lisansı altında lisanslanmıştır - ayrıntılar için [LICENSE](https://github.com/M3G4devs/encryptEngine/blob/main/LICENSE) dosyasına bakın.
 
 
