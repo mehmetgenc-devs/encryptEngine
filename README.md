@@ -42,9 +42,9 @@ echo "Decrypted Data: " . $decryptedData; // Decrypted Data: Hello World!
 ```js
 const endec = new CryptoClass();
 const encrypted = endec.encrypt('Hello World');
-console.log('Encrypted:', encrypted);
+console.log('Encrypted:', encrypted); // Encrypted: 1rqs/dEAiBdYNEXv/kVwaA==:A7PyjTp8zDcqMSR3mUBkqA==
 const decrypted = endec.decrypt(encrypted);
-console.log('Decrypted:', decrypted);
+console.log('Decrypted:', decrypted); // Decrypted: Hello World!
 ```
 
 ## License - Lisans
